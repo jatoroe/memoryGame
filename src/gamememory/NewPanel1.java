@@ -76,6 +76,9 @@ public class NewPanel1 extends JPanel implements ActionListener, MouseListener
         } else if (gg < 25) {
                 l.clearRect(10, 10, 200, 200);
             }
+        // Instrucciones.
+        Image ins = loadImage("Instrucciones.png");
+        l.drawImage(ins, 200, 15, null);
         //Reverso Cartas.        
         l.setColor(Color.BLUE);
         l.fillRect(50, 100, 150, 200);
