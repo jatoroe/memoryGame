@@ -26,7 +26,7 @@ public GameMemory ()
     {
         GameMemory frame = new GameMemory();
         frame.setTitle("Game Memory");
-        frame.setSize(1100, 600);
+        frame.setSize(1100, 1200);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
